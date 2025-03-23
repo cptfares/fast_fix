@@ -172,12 +172,6 @@ export default function Header() {
                 >
                   Fast Response Time
                 </Link>
-                <Link
-                  href="/emergency-services/insurance"
-                  className="block px-4 py-2 text-gray-700 hover:bg-[#39A9DC]/10 hover:text-[#39A9DC]"
-                >
-                  Insurance Claims
-                </Link>
               </div>
             </div>
 
