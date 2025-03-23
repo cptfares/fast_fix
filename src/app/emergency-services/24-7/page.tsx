@@ -64,9 +64,9 @@ export default function EmergencyService() {
           {/* Main Content */}
           <div>
             <h2 className="text-4xl font-bold mb-8 text-[#000000]">Round-the-Clock Emergency Service</h2>
-            <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-              FastFix provides 24/7 emergency glass repair and replacement services. Whether it's a broken window, 
-              damaged door, or any other glass emergency, our team is ready to respond at any time.
+            <p className="text-xl text-gray-700 mb-6 leading-relaxed">
+              When you&apos;re facing a glass emergency, you need a reliable service provider who can respond quickly.
+              FastFix Glass Repair is here for you 24/7, ready to handle any glass repair emergency in the DMV region.
             </p>
             <ul className="grid grid-cols-2 gap-4 mb-8">
               {features.map((feature, index) => (

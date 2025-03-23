@@ -73,7 +73,7 @@ export default function About() {
             <h2 className="text-4xl font-bold mb-8 text-[#000000]">Our Story</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               FastFix Glass Repair was founded with a simple mission: to provide exceptional glass repair and 
-              replacement services with unmatched reliability and professionalism. Since our establishment, we've 
+              replacement services with unmatched reliability and professionalism. Since our establishment, we&apos;ve 
               been serving the DMV region with pride and dedication.
             </p>
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">

@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
 
 export const metadata = {
   title: 'Contact FastFix Glass Repair | 24/7 Emergency Service',
@@ -138,7 +137,7 @@ export default function Contact() {
                 <ul className="list-disc list-inside text-gray-600 mt-2 space-y-1">
                   <li>Washington, DC</li>
                   <li>Montgomery County, MD</li>
-                  <li>Prince George's County, MD</li>
+                  <li>Prince George&apos;s County, MD</li>
                   <li>Northern Virginia</li>
                 </ul>
               </div>
