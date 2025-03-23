@@ -143,7 +143,7 @@ export default function About() {
               <p className="text-gray-600">All areas</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-md">
-              <h3 className="text-xl font-semibold mb-2 text-[#000000]">Prince George's County</h3>
+              <h3 className="text-xl font-semibold mb-2 text-[#000000]">Prince George&apos;s County</h3>
               <p className="text-gray-600">All areas</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-md">
