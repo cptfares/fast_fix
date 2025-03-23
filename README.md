@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FastFix Website
+
+A modern, SEO-optimized website for FastFix, a professional glass and door repair company serving the DMV area. Built with Next.js 14, TypeScript, and Tailwind CSS.
+
+## Features
+
+- 🚀 Next.js 14 with App Router
+- 📱 Mobile-first responsive design
+- 🎨 Tailwind CSS for styling
+- 🔍 SEO optimized with metadata
+- 📝 TypeScript for type safety
+- 🖼️ Image optimization with next/image
+- 🗺️ Dynamic sitemap generation
+- 🤖 Robots.txt configuration
+- 📱 Mobile-friendly navigation
+
+## Prerequisites
+
+- Node.js 18.17 or later
+- npm or yarn
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/fastfix-website.git
+cd fastfix-website
+```
 
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Create a `.env.local` file in the root directory and add your environment variables:
+```env
+NEXT_PUBLIC_SITE_URL=https://fastfix.com
+```
+
+4. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+fastfix-website/
+├── public/              # Static files
+│   ├── images/         # Image assets
+│   ├── robots.txt      # Robots configuration
+│   └── favicon.ico     # Site favicon
+├── src/
+│   ├── app/           # App router pages
+│   ├── components/    # React components
+│   └── styles/        # Global styles
+├── next.config.js     # Next.js configuration
+├── tailwind.config.ts # Tailwind CSS configuration
+└── package.json       # Project dependencies
+```
 
-## Learn More
+## SEO Optimization
 
-To learn more about Next.js, take a look at the following resources:
+The website is optimized for search engines with:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Meta tags and descriptions
+- OpenGraph and Twitter card support
+- Dynamic sitemap generation
+- Robots.txt configuration
+- Semantic HTML structure
+- Mobile-first responsive design
+- Fast loading performance
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Performance Optimization
 
-## Deploy on Vercel
+- Image optimization with next/image
+- Font optimization with next/font
+- Static page generation where possible
+- Code splitting and lazy loading
+- Tailwind CSS for minimal CSS bundle
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
