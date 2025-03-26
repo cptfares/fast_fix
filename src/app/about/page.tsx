@@ -42,7 +42,7 @@ export default function About() {
       {/* Hero Section */}
       <div className="relative h-[400px] w-full overflow-hidden">
         <Image
-          src="/images/about-hero.jpg"
+          src="/images/IMG_4284.jpg"
           alt="About FastFix Glass Repair"
           fill
           className="object-cover"
@@ -88,7 +88,7 @@ export default function About() {
                 Get in Touch
               </Link>
               <a
-                href="tel:+12409685060"
+                href="tel:tel:+15715239063"
                 className="inline-block bg-white text-[#39A9DC] border-2 border-[#39A9DC] px-8 py-4 rounded-md hover:bg-[#39A9DC]/5 transition-all transform hover:scale-105 font-semibold"
               >
                 Call Now
@@ -97,7 +97,7 @@ export default function About() {
           </div>
           <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/about-story.jpg"
+              src="/images/IMG_4284.jpg"
               alt="FastFix Glass Repair Team"
               fill
               className="object-cover"

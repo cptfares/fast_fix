@@ -61,6 +61,9 @@ export const metadata: Metadata = {
   verification: {
     google: "your-google-site-verification",
   },
+  icons: {
+    icon: '/logo.ico',
+  },
 };
 
 export default function RootLayout({
@@ -72,7 +75,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header />
-        <main className="pt-[76px]">
+        <main className="pt-[80px]">
           {children}
         </main>
         <Footer />

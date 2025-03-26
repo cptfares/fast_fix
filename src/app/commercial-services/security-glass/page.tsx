@@ -21,8 +21,8 @@ export default function SecurityGlass() {
       {/* Hero Section */}
       <div className="relative h-[400px] w-full overflow-hidden">
         <Image
-          src="/images/services/security-glass.jpg"
-          alt="Professional security glass installation"
+              src="/images/IMG_9016.jpeg"
+              alt="Professional security glass installation"
           fill
           className="object-cover"
           priority
@@ -42,7 +42,7 @@ export default function SecurityGlass() {
               </p>
               <div className="flex flex-wrap gap-4">
                 <a
-                  href="tel:+12409685060"
+                  href="tel:+15715239063"
                   className="inline-block bg-white text-[#39A9DC] px-6 py-3 rounded-md hover:bg-opacity-90 transition-all transform hover:scale-105 font-semibold"
                 >
                   Call Now
@@ -84,7 +84,7 @@ export default function SecurityGlass() {
                 Get Free Estimate
               </Link>
               <a
-                href="tel:+12409685060"
+                href="tel:+15715239063"
                 className="inline-block bg-white text-[#39A9DC] border-2 border-[#39A9DC] px-8 py-4 rounded-md hover:bg-[#39A9DC]/5 transition-all transform hover:scale-105 font-semibold"
               >
                 +1 240-968-5060
@@ -95,7 +95,7 @@ export default function SecurityGlass() {
           {/* Image Section */}
           <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl group">
             <Image
-              src="/images/services/security-glass-main.jpg"
+              src="/images/IMG_9016.jpeg"
               alt="Professional security glass service"
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-105"

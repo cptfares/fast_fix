@@ -72,8 +72,11 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4 text-[#39A9DC]">Contact Us</h3>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="tel:+1234567890" className="hover:text-[#39A9DC] transition-colors">
-                  (123) 456-7890
+                <a
+                  href="tel:tel:+15715239063"
+                  className="text-white hover:text-opacity-80 transition-colors"
+                >
+                  +1 571-523-9063
                 </a>
               </li>
               <li>

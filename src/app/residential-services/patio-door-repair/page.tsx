@@ -21,7 +21,7 @@ export default function PatioDoorRepair() {
       {/* Hero Section */}
       <div className="relative h-[400px] w-full overflow-hidden">
         <Image
-          src="/images/services/patio-door-repair.jpg"
+          src="/images/livingroom.jpeg"
           alt="Professional patio door repair"
           fill
           className="object-cover"
@@ -42,7 +42,7 @@ export default function PatioDoorRepair() {
               </p>
               <div className="flex flex-wrap gap-4">
                 <a
-                  href="tel:+12409685060"
+                  href="tel:+15715239063"
                   className="inline-block bg-white text-[#39A9DC] px-6 py-3 rounded-md hover:bg-opacity-90 transition-all transform hover:scale-105 font-semibold"
                 >
                   Call Now
@@ -84,7 +84,7 @@ export default function PatioDoorRepair() {
                 Get Free Estimate
               </Link>
               <a
-                href="tel:+12409685060"
+                href="tel:+15715239063"
                 className="inline-block bg-white text-[#39A9DC] border-2 border-[#39A9DC] px-8 py-4 rounded-md hover:bg-[#39A9DC]/5 transition-all transform hover:scale-105 font-semibold"
               >
                 +1 240-968-5060
@@ -95,7 +95,7 @@ export default function PatioDoorRepair() {
           {/* Image Section */}
           <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl group">
             <Image
-              src="/images/services/patio-door-main.jpg"
+              src="/images/livingroom.jpeg"
               alt="Professional patio door repair service"
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-105"

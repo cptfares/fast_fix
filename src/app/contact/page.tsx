@@ -121,10 +121,10 @@ export default function Contact() {
               <div>
                 <h3 className="text-xl font-semibold mb-4 text-[#000000]">Emergency Contact</h3>
                 <a
-                  href="tel:+12409685060"
+                  href="tel:tel:+15715239063"
                   className="text-2xl font-bold text-[#39A9DC] hover:text-opacity-80 transition-colors"
                 >
-                  +1 240-968-5060
+                  +1 571-523-9063
                 </a>
                 <p className="text-gray-600 mt-2">Available 24/7 for emergency services</p>
               </div>

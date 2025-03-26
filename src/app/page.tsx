@@ -7,13 +7,13 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-[80vh] flex items-center">
         <div className="absolute inset-0 z-0">
-          <Image
-            src="/hero-bg.jpg"
+        <Image
+            src="/images/IMG_2797.png"
             alt="Glass and Door Repair Services"
             fill
             className="object-cover"
-            priority
-          />
+          priority
+        />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/50" />
         </div>
         
@@ -27,7 +27,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="tel:+1234567890"
+                href="tel:+15715239063"
                 className="bg-[#39A9DC] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-opacity-90 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
               >
                 Call Now
@@ -143,7 +143,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+1234567890"
+              href="tel:+15715239063"
               className="bg-white text-[#39A9DC] px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
               Call Now
@@ -155,7 +155,7 @@ export default function Home() {
               Get a Quote
             </Link>
           </div>
-        </div>
+    </div>
       </section>
     </>
   )

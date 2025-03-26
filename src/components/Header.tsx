@@ -182,8 +182,8 @@ export default function Header() {
               Contact
             </Link>
             <a
-              href="tel:+12409685060"
-              className="bg-[#39A9DC] text-white px-6 py-2 rounded-md hover:bg-opacity-90 transition-all transform hover:scale-105 font-semibold"
+              href="tel:tel:+15715239063"
+              className="inline-block bg-[#39A9DC] text-white px-6 py-2 rounded-md hover:bg-opacity-90 transition-all transform hover:scale-105 font-semibold"
             >
               Call Now
             </a>
@@ -192,7 +192,7 @@ export default function Header() {
           {/* Mobile Navigation */}
           <div className="flex items-center space-x-4 md:hidden">
             <a
-              href="tel:+12409685060"
+              href="tel:tel:+15715239063"
               className="bg-[#39A9DC] text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-all transform hover:scale-105 font-semibold text-sm"
             >
               Call Now

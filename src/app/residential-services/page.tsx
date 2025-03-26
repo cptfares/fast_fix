@@ -117,7 +117,7 @@ export default function ResidentialServices() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+1234567890"
+              href="tel:+15715239063"
               className="bg-white text-[#39A9DC] px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
               Call Now
