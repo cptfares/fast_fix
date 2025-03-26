@@ -1,5 +1,3 @@
-import { SERVICE_CATEGORIES } from '@/constants'
-
 interface LocalSEOProps {
   service: string
   location: string

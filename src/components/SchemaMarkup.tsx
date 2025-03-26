@@ -1,8 +1,71 @@
 import Script from 'next/script'
 
+type SchemaData = {
+  name?: string
+  url?: string
+  logo?: string
+  description?: string
+  address?: {
+    '@type': string
+    streetAddress: string
+    addressLocality: string
+    addressRegion: string
+    postalCode: string
+    addressCountry: string
+  }
+  contactPoint?: {
+    '@type': string
+    telephone: string
+    contactType: string
+    areaServed: string[]
+    availableLanguage: string[]
+  }
+  sameAs?: string[]
+  openingHoursSpecification?: Array<{
+    '@type': string
+    dayOfWeek: string[]
+    opens: string
+    closes: string
+  }>
+  priceRange?: string
+  areaServed?: string[]
+  hasMap?: string
+  geo?: {
+    '@type': string
+    latitude: string
+    longitude: string
+  }
+  aggregateRating?: {
+    '@type': string
+    ratingValue: string
+    reviewCount: string
+  }
+  provider?: {
+    '@type': string
+    name: string
+  }
+  availableAtOrFrom?: {
+    '@type': string
+    address: {
+      '@type': string
+      streetAddress: string
+      addressLocality: string
+      addressRegion: string
+      postalCode: string
+      addressCountry: string
+    }
+  }
+  itemListElement?: Array<{
+    '@type': string
+    position: number
+    name: string
+    item: string
+  }>
+}
+
 interface SchemaMarkupProps {
   type: 'Organization' | 'LocalBusiness' | 'Service' | 'BreadcrumbList'
-  data: any
+  data: SchemaData
 }
 
 export default function SchemaMarkup({ type, data }: SchemaMarkupProps) {
