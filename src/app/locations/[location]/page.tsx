@@ -167,10 +167,10 @@ export default function LocationPage({ params }: LocationPageProps) {
                   Request a Quote
                 </Link>
                 <a 
-                  href="tel:+15555555555" 
+                  href="tel:+15715239063" 
                   className="bg-white text-blue-600 border border-blue-600 px-6 py-3 rounded-md font-medium hover:bg-blue-50 transition-colors"
                 >
-                  Call Now: (555) 555-5555
+                  Call Now: (571) 523-9063
                 </a>
               </div>
             </div>
@@ -269,7 +269,7 @@ export default function LocationPage({ params }: LocationPageProps) {
             Need Glass Repair in {location.name}?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Contact FastFix today for professional glass repair services. We're available 24/7 for emergency repairs.
+            Contact FastFix today for professional glass repair services. We&apos;re available 24/7 for emergency repairs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 

@@ -212,7 +212,7 @@ export default function EmergencyGlassRepairPost() {
               </p>
               
               <p>
-                If you&apos;re experiencing a glass emergency, don&apos;t wait. Contact FastFix immediately at <a href="tel:+15555555555" className="text-blue-600 hover:text-blue-800">(555) 555-5555</a> for prompt, reliable emergency glass repair services in the DMV area.
+                If you&apos;re experiencing a glass emergency, don&apos;t wait. Contact FastFix immediately at <a href="tel:+15715239063" className="text-blue-600 hover:text-blue-800">(555) 555-5555</a> for prompt, reliable emergency glass repair services in the DMV area.
               </p>
               
               <div className="bg-blue-50 p-6 rounded-lg mt-8">
@@ -222,7 +222,7 @@ export default function EmergencyGlassRepairPost() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a 
-                    href="tel:+15555555555" 
+                    href="tel:+15715239063" 
                     className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 transition-colors text-center"
                   >
                     Call Now: (555) 555-5555
