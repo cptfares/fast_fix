@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://fastfix.com/sitemap.xml
+Sitemap: https://www.fastfixglassanddoor.com/sitemap.xml
 
 # Disallow admin and private routes
 Disallow: /admin/
