@@ -86,7 +86,7 @@ export default function Footer() {
               </li>
               <li>
                 <address className="not-italic">
-                  123 Main Street<br />
+                  305 campus view dr <br />
                   Washington, DC 20001
                 </address>
               </li>
