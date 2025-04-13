@@ -75,7 +75,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="/logo.ico" />
+        <link rel="icon" type="image/x-icon" href="/logo.ico" />
+        <link rel="shortcut icon" href="/logo.ico" />
       </Head>
       <body className={inter.className}>
         <Header />

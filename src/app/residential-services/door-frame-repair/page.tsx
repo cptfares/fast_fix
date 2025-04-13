@@ -95,7 +95,7 @@ export default function DoorFrameRepair() {
           {/* Image Section */}
           <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl group">
             <Image
-              src="/images/file_016.png"
+              src="/images/IMG_4283.JPG"
               alt="Professional door frame repair service"
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-105"
