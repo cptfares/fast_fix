@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://fastfix.com'
+  const baseUrl = 'https://fastfixglassanddoor.com'
   const locations = [
     'washington-dc',
     'montgomery-county-md',
@@ -26,7 +26,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/commercial-services/security-glass',
     '/emergency-services/24-7',
     '/emergency-services/response-time',
-    '/emergency-services/insurance'
+    '/emergency-services/insurance',
+    '/services',
+    '/areas-we-serve',
+    '/glass-repair',
   ]
 
   // Generate location-specific routes
@@ -48,4 +51,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }))
 
   return [...routes, ...locationRoutes]
-} 
+}
