@@ -21,7 +21,7 @@ export default function PatioDoorRepair() {
       {/* Hero Section */}
       <div className="relative h-[400px] w-full overflow-hidden">
         <Image
-          src="/images/livingroom.jpeg"
+          src="/images/livingroom.JPEG"
           alt="Professional patio door repair"
           fill
           className="object-cover"
@@ -95,7 +95,7 @@ export default function PatioDoorRepair() {
           {/* Image Section */}
           <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl group">
             <Image
-              src="/images/livingroom.jpeg"
+              src="/images/livingroom.JPEG"
               alt="Professional patio door repair service"
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -111,4 +111,4 @@ export default function PatioDoorRepair() {
       </div>
     </div>
   )
-} 
+}

@@ -7,9 +7,9 @@ import LocalSEO from '@/components/LocalSEO'
 import { SERVICE_CATEGORIES } from '@/constants'
 
 interface LocationPageProps {
-  params: Promise<{
+  params: {
     location: string;
-  }>;
+  };
 }
 
 const locations = {
@@ -56,8 +56,7 @@ const locations = {
 }
 
 export async function generateMetadata({ params }: LocationPageProps): Promise<Metadata> {
-  const resolvedParams = await params;
-  const location = locations[resolvedParams.location as keyof typeof locations];
+  const location = locations[params.location as keyof typeof locations];
 
   if (!location) {
     return {
@@ -90,14 +89,13 @@ export async function generateMetadata({ params }: LocationPageProps): Promise<M
       'security glass installation'
     ],
     alternates: {
-      canonical: `/locations/${resolvedParams.location}`,
+      canonical: `/locations/${params.location}`,
     },
   };
 }
 
 export default async function LocationPage({ params }: LocationPageProps) {
-  const resolvedParams = await params;
-  const location = locations[resolvedParams.location as keyof typeof locations];
+  const location = locations[params.location as keyof typeof locations];
 
   if (!location) {
     notFound();

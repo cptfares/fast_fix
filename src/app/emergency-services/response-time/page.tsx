@@ -95,7 +95,7 @@ export default function FastResponse() {
           {/* Image Section */}
           <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl group">
             <Image
-              src="/images/IMG_4290.jpg"
+              src="/images/IMG_4290.JPG"
               alt="Fast Response Glass Service"
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -111,4 +111,4 @@ export default function FastResponse() {
       </div>
     </div>
   )
-} 
+}

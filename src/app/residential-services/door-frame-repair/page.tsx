@@ -21,7 +21,7 @@ export default function DoorFrameRepair() {
       {/* Hero Section */}
       <div className="relative h-[400px] w-full overflow-hidden">
         <Image
-          src="/images/File_016.png"
+          src="/images/file_016.png"
           alt="Professional door frame repair"
           fill
           className="object-cover"
@@ -95,7 +95,7 @@ export default function DoorFrameRepair() {
           {/* Image Section */}
           <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl group">
             <Image
-              src="/images/File_016.png"
+              src="/images/file_016.png"
               alt="Professional door frame repair service"
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -111,4 +111,4 @@ export default function DoorFrameRepair() {
       </div>
     </div>
   )
-} 
+}
