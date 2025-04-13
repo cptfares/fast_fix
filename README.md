@@ -46,7 +46,7 @@ npm run dev
 yarn dev
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+5. Open [https://fastfixglassanddoor.com](https://fastfixglassanddoor.com) in your browser.
 
 ## Project Structure
 

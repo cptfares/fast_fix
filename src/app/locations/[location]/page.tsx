@@ -34,10 +34,10 @@ const locations = {
     }
   },
   'prince-georges-county-md': {
-    name: 'Prince George\'s County MD',
-    description: 'Professional glass repair services in Prince George\'s County, Maryland. 24/7 emergency service and quick response times.',
+    name: 'Prince George&apos;s County MD',
+    description: 'Professional glass repair services in Prince George&apos;s County, Maryland. 24/7 emergency service and quick response times.',
     image: '/images/locations/prince-georges-county.jpg',
-    address: 'Prince George\'s County, MD',
+    address: 'Prince George&apos;s County, MD',
     coordinates: {
       latitude: '38.8329',
       longitude: '-76.8253'
@@ -289,4 +289,4 @@ export default function LocationPage({ params }: LocationPageProps) {
       </div>
     </>
   )
-} 
+}

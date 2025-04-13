@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     'glass repair near me',
     'Washington DC glass repair',
     'Montgomery County glass repair',
-    'Prince George\'s County glass repair',
+    'Prince George&apos;s County glass repair',
     'Northern Virginia glass repair',
     'emergency glass replacement',
     'same day glass repair'
@@ -90,18 +90,18 @@ export default function EmergencyGlassRepairPost() {
             
             <div className="prose prose-lg max-w-none">
               <p className="lead">
-                A broken window can happen at any time, often when you least expect it. Whether it's due to severe weather, an accident, or vandalism, knowing how to handle the situation quickly and safely is essential. In this guide, we'll walk you through the steps to take when you experience a broken window emergency in the DMV area.
+                A broken window can happen at any time, often when you least expect it. Whether it&apos;s due to severe weather, an accident, or vandalism, knowing how to handle the situation quickly and safely is essential. In this guide, we&apos;ll walk you through the steps to take when you experience a broken window emergency in the DMV area.
               </p>
               
               <h2>Immediate Steps to Take When a Window Breaks</h2>
               
               <p>
-                When you discover a broken window, your first priority should be safety. Here's what to do immediately:
+                When you discover a broken window, your first priority should be safety. Here&apos;s what to do immediately:
               </p>
               
               <ol>
                 <li>
-                  <strong>Ensure everyone's safety:</strong> Keep children and pets away from the broken glass area. If the break occurred during a storm or break-in, make sure everyone is safe and secure.
+                  <strong>Ensure everyone&apos;s safety:</strong> Keep children and pets away from the broken glass area. If the break occurred during a storm or break-in, make sure everyone is safe and secure.
                 </li>
                 <li>
                   <strong>Secure the area:</strong> If possible, close off the room or area where the broken window is located to prevent further damage or injury.
@@ -117,12 +117,12 @@ export default function EmergencyGlassRepairPost() {
               <h2>Finding Emergency Glass Repair Services in the DMV Area</h2>
               
               <p>
-                Once you've secured the area, you'll need to find a reliable emergency glass repair service. In the Washington DC, Maryland, and Northern Virginia area, several companies offer 24/7 emergency glass repair services. Here's how to find the right one:
+                Once you&apos;ve secured the area, you&apos;ll need to find a reliable emergency glass repair service. In the Washington DC, Maryland, and Northern Virginia area, several companies offer 24/7 emergency glass repair services. Here&apos;s how to find the right one:
               </p>
               
               <ul>
                 <li>
-                  <strong>Search for local emergency services:</strong> Use search terms like "emergency glass repair near me" or "24/7 glass repair [your location]" to find services in your area.
+                  <strong>Search for local emergency services:</strong> Use search terms like &quot;emergency glass repair near me&quot; or &quot;24/7 glass repair [your location]&quot; to find services in your area.
                 </li>
                 <li>
                   <strong>Check reviews and ratings:</strong> Look for companies with positive reviews and high ratings, especially for emergency services.
@@ -204,7 +204,7 @@ export default function EmergencyGlassRepairPost() {
               <h2>FastFix Emergency Glass Repair Services</h2>
               
               <p>
-                At FastFix, we understand that glass emergencies don't wait for business hours. That's why we offer 24/7 emergency glass repair services throughout the DMV area, including Washington DC, Montgomery County MD, Prince George's County MD, and Northern Virginia.
+                At FastFix, we understand that glass emergencies don&apos;t wait for business hours. That&apos;s why we offer 24/7 emergency glass repair services throughout the DMV area, including Washington DC, Montgomery County MD, Prince George&apos;s County MD, and Northern Virginia.
               </p>
               
               <p>
@@ -212,7 +212,7 @@ export default function EmergencyGlassRepairPost() {
               </p>
               
               <p>
-                If you're experiencing a glass emergency, don't wait. Contact FastFix immediately at <a href="tel:+15555555555" className="text-blue-600 hover:text-blue-800">(555) 555-5555</a> for prompt, reliable emergency glass repair services in the DMV area.
+                If you&apos;re experiencing a glass emergency, don&apos;t wait. Contact FastFix immediately at <a href="tel:+15555555555" className="text-blue-600 hover:text-blue-800">(555) 555-5555</a> for prompt, reliable emergency glass repair services in the DMV area.
               </p>
               
               <div className="bg-blue-50 p-6 rounded-lg mt-8">
@@ -279,4 +279,4 @@ export default function EmergencyGlassRepairPost() {
       </div>
     </>
   )
-} 
+}

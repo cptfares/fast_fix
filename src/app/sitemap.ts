@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://fastfixglassanddoor.com'
+  const baseUrl = 'https://fastfixglassanddoor.com';
   const locations = [
     'washington-dc',
     'montgomery-county-md',
