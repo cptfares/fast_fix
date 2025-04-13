@@ -42,7 +42,7 @@ export default function About() {
       {/* Hero Section */}
       <div className="relative h-[400px] w-full overflow-hidden">
         <Image
-          src="/images/IMG_4284.jpg"
+          src="/images/IMG_4283.JPG"
           alt="About FastFix Glass Repair"
           fill
           className="object-cover"
@@ -97,7 +97,7 @@ export default function About() {
           </div>
           <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/IMG_4284.jpg"
+              src="/images/IMG_4283.JPG"
               alt="FastFix Glass Repair Team"
               fill
               className="object-cover"
@@ -155,4 +155,4 @@ export default function About() {
       </div>
     </div>
   )
-} 
+}

@@ -21,7 +21,7 @@ export default function DoorFrameRepair() {
       {/* Hero Section */}
       <div className="relative h-[400px] w-full overflow-hidden">
         <Image
-          src="/images/file_016.png"
+          src="/images/IMG_4283.JPG"
           alt="Professional door frame repair"
           fill
           className="object-cover"

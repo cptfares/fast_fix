@@ -21,7 +21,7 @@ export default function SecurityGlass() {
       {/* Hero Section */}
       <div className="relative h-[400px] w-full overflow-hidden">
         <Image
-              src="/images/IMG_9016.jpeg"
+              src="/images/IMG_4283.JPG"
               alt="Professional security glass installation"
           fill
           className="object-cover"
@@ -95,7 +95,7 @@ export default function SecurityGlass() {
           {/* Image Section */}
           <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl group">
             <Image
-              src="/images/IMG_9016.jpeg"
+              src="/images/IMG_4283.JPG"
               alt="Professional security glass service"
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -111,4 +111,4 @@ export default function SecurityGlass() {
       </div>
     </div>
   )
-} 
+}
