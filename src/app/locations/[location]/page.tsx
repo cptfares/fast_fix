@@ -7,9 +7,9 @@ import LocalSEO from '@/components/LocalSEO'
 import { SERVICE_CATEGORIES } from '@/constants'
 
 interface LocationPageProps {
-  params: {
-    location: string
-  }
+  params: Promise<{
+    location: string;
+  }>;
 }
 
 const locations = {
@@ -56,12 +56,13 @@ const locations = {
 }
 
 export async function generateMetadata({ params }: LocationPageProps): Promise<Metadata> {
-  const location = locations[params.location as keyof typeof locations]
-  
+  const resolvedParams = await params;
+  const location = locations[resolvedParams.location as keyof typeof locations];
+
   if (!location) {
     return {
       title: 'Location Not Found | FastFix Glass & Door Repair'
-    }
+    };
   }
 
   return {
@@ -89,16 +90,17 @@ export async function generateMetadata({ params }: LocationPageProps): Promise<M
       'security glass installation'
     ],
     alternates: {
-      canonical: `/locations/${params.location}`,
+      canonical: `/locations/${resolvedParams.location}`,
     },
-  }
+  };
 }
 
-export default function LocationPage({ params }: LocationPageProps) {
-  const location = locations[params.location as keyof typeof locations]
-  
+export default async function LocationPage({ params }: LocationPageProps) {
+  const resolvedParams = await params;
+  const location = locations[resolvedParams.location as keyof typeof locations];
+
   if (!location) {
-    notFound()
+    notFound();
   }
 
   // Create location-specific schema
