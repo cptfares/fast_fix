@@ -75,7 +75,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <meta name="google-site-verification" content="t1xQezpekyMZi-9S0vWinbdRzAE94ROe47VDTWg4Uyo" />
+      <meta name="google-site-verification" content="t1xQezpekyMZi-9S0vWinbdRzAE94ROe47VDTWg4Uyo" />
         <link rel="icon" type="image/x-icon" href="/logo.ico" />
         <link rel="shortcut icon" href="/logo.ico" />
       </Head>
